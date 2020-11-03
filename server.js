@@ -3,9 +3,11 @@ const app = express();
 
 var PORT = process.env.PORT || 8080;
 
-app.get("/", function(req, res) {
-    res.send("TEST");
-})
+app.use(express.urlencoded({ extended: true }));
+
+require("./routes/htmlRoutes")(app);
+
+
 
 app.listen(PORT, () => {
     console.log("App is listening on Port: " + PORT);
