@@ -8,7 +8,7 @@ The user can create a new note by clicking 'Get Started' and filling out the not
 
 To get a list of all saved notes in json format, users can go to `/api/notes` and view the list.   
 
-Click [HERE](https://note-taker-cedwards.herokuapp.com/) for the deployed application
+Click [HERE](https://note-taker-web.herokuapp.com/) for the deployed application
 
 
 ## Technologies
